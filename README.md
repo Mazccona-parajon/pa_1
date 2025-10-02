@@ -17,16 +17,37 @@ int_o_unstressed <-72.48682
 f0_o_stressed <- 231.13417
 
 f0_o_unstressed <-258.24542
-
-# Differences
-diff_dur_words <- dur_hablo_unstressed-dur_hablo_stressed
-
-diff_dur_o <- dur_o_stressed-dur_o_unstressed
-
-diff_int_o <- int_o_stressed-int_o_unstressed
-
-diff_f0_o <- f0_o_stressed-f0_o_unstressed
 ```
+
+# Duration Differences
+
+``` r
+# The difference in ms between “hablo” and “habló”
+dur_hablo_stressed - dur_hablo_unstressed
+```
+
+    ## [1] -0.00071
+
+``` r
+#The difference in ms between the stressed and unstressed [o]
+dur_o_stressed - dur_o_unstressed
+```
+
+    ## [1] 0.00087
+
+``` r
+#The difference in intensity between the stressed and unstressed [o]
+int_o_stressed - int_o_unstressed
+```
+
+    ## [1] 2.83428
+
+``` r
+#The difference in F0 between the stressed and unstressed [o]
+f0_o_stressed - f0_o_unstressed
+```
+
+    ## [1] -27.11125
 
 # Observations
 
